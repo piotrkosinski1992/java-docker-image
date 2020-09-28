@@ -4,3 +4,7 @@ docker run --name java-app456 -p 8080:8080 hello-service:latest
 
 
 http://192.168.99.100:8080/hello
+
+
+to enter container
+docker exec -ti 4a3806504568 sh
