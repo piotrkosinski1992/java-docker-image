@@ -1,0 +1,6 @@
+
+docker build -t hello-service:latest .
+docker run --name java-app456 -p 8080:8080 hello-service:latest
+
+
+http://192.168.99.100:8080/hello
